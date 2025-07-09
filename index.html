@@ -1,19 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web Developer Portfolio</title>
-</head>
-<body>
-    <header>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/protfolio.css" />
+  </head>
+  <body class="open-sans-normal">
+    <header class="header secondry-background">
+      <nav>
+        <h3 class="nav-title">
+          <span class="text-primary">SM</span> Moho<span class="text-primary"
+            >sin</span>
+        </h3>
+        <ul>
+          <li><a class="dark-2" href="">Portfolio</a></li>
+          <li><a class="dark-2" href="">Blog</a></li>
+          <li>
+            <a href=""><button class="btn-primary">Hire Me</button></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="banner">
+        <div class="banner-content">
+          <h4 class="banner-greetings dark-2">Hi, I am</h4>
+          <h1 class="banner-title">SM Mohosin</h1>
+          <p class="banner-description">
+            I’m a focused learner working to become a junior web developer in 6
+            months.Alongside coding, I’m also studying German and managing my
+            academic life.I believe in discipline, growth, and making each day
+            productive.Balancing faith, learning, and self-improvement is my
+            daily goal
+          </p>
+          <button class="btn-primary">Download CV</button>
+          <button class="btn-primary">Contact</button>
+        </div>
+        <img class="banner-profile-pic" src="Images/black.png" alt="">
     </header>
     <main>
-
+      <section class="about secondry-background">
+           <h3 class="section-title">About Me</h3>
+           <p class="section-description">
+            I’m someone who believes in quiet progress and consistent effort every day.
+Rather than rushing, I focus on learning deeply and growing steadily.
+Challenges don’t scare me — they inspire me to push harder.
+I aim to build a life of purpose through skill, knowledge, and faith
+           </p>
+           <div class="about-items">
+            <div class="about-item">
+              <p class="item-title">Name</p>
+              <p class="item-description">SM Mohosin</p>
+            </div>
+            <div class="about-item">
+              <p class="item-title">Email</p>
+              <p class="item-description">smmohosin75@gmail.com</p>
+            </div>
+            <div class="about-item">
+              <p class="item-title">Date Of Birth</p>
+              <p class="item-description">Oct 06,2006</p>
+            </div>
+            <div class="about-item">
+              <p class="item-title">From</p>
+              <p class="item-description">Asuliya, Savar, Dhaka</p>
+            </div>
+           </div>
+      </section>
+      <!-- What I do section start-->
+       <section class="skkills">
+        <h3 class="section-title text-center">What I do</h3>
+        <p class="section-description text-center">I’m passionate about coding and enjoy building things from scratch.
+Currently, I’m learning web development to become a skilled developer.
+Each day, I code, learn, and grow a little more than yesterday.</p>
+       
+<div class="skills-container">
+<div class="skill">
+  <img src="Images/icons/js.png" alt="">
+  <h4 class="skill-title">Vanilla JavaScript</h4>
+  <p class="skill-description">JavaScript is a programming language that makes websites interactive and dynamic.
+It runs in the browser and allows direct interaction with users.</p>
+</div>
+<div class="skill">
+  <img src="Images/icons/react.png" alt="">
+  <h4 class="skill-title">React</h4>
+  <p class="skill-description">React is a JavaScript library used to build user interfaces, especially for single-page applications.
+It helps developers create fast, interactive, and reusable UI components efficiently</p>
+</div>
+<div class="skill">
+  <img src="Images/icons/nodejs.png" alt="">
+  <h4 class="skill-title">Node.js</h4>
+  <p class="skill-description">Node.js is a runtime environment that allows you to run JavaScript on the server side.
+It helps build fast and scalable web applications using JavaScript outside the browser.</p>
+</div>
+<div class="skill">
+  <img src="Images/icons/mongo.png" alt="">
+  <h4 class="skill-title">MongoDB</h4>
+  <p class="skill-description">MongoDB is a NoSQL database used to store data in a flexible, JSON-like format called documents.
+It’s great for handling large amounts of unstructured data and scales easily for modern applications.</p>
+</div>
+</div>
+</section>
+       
     </main>
-    <footer>
-      
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
